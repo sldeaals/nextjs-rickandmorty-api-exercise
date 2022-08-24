@@ -1,0 +1,1 @@
+# nextjs-rickandmorty-api-exercise
