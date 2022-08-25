@@ -2,7 +2,9 @@
 
 ## Getting Started
 
-First, run the development server:
+First, go to nextjs-rickandmorty-api folder.
+
+Then, run the development server:
 
 ```bash
 yarn dev
