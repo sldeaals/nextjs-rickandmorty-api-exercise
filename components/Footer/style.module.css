@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.footer a {
+.link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
     .footer {
       border-color: #222;
     }
-    .logo img {
+    .image {
       filter: invert(1);
     }
 }

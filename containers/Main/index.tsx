@@ -1,7 +1,7 @@
 import { memo, useMemo, useCallback } from "react";
 import Card from "../../components/Card";
 import i18nEN from "./i18n/en";
-import "./style.module.css";
+import Css from "./style.module.css";
 
 type TProps = {
   characters: TCharacters[];
@@ -36,9 +36,9 @@ const Main = memo<TProps>(({ characters }) => {
   );
 
   return (
-    <main className="main">
-      <h1 className="title">{i18nEN.title}</h1>
-      <div className="content">{mapCharacters}</div>
+    <main className={Css["main"]}>
+      <h1 className={Css["title"]}>{i18nEN.title}</h1>
+      <div className={Css["content"]}>{mapCharacters}</div>
     </main>
   );
 });
