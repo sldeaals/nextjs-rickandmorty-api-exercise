@@ -1,4 +1,5 @@
 import Css from "./style.module.css";
+import i18nEN from "./i18n/en";
 
 type TProps = {
   id?: string;
@@ -31,7 +32,7 @@ const Card: React.FC<TProps> = ({
           </span>
         </div>
         <div className={Css["section"]}>
-          <span className={Css["text-gray"]}>Gender:</span>
+          <span className={Css["text-gray"]}>{i18nEN.gender}</span>
           <a
             href="/"
             rel="nofollow noopener noreferrer"
